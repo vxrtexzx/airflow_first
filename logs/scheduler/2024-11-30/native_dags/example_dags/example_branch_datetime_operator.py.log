@@ -1,0 +1,21 @@
+[2024-11-30T15:31:55.327+0600] {processor.py:161} INFO - Started process (PID=10123) to work on /Users/nt/main_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2024-11-30T15:31:55.327+0600] {processor.py:830} INFO - Processing file /Users/nt/main_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py for tasks to queue
+[2024-11-30T15:31:55.327+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.327+0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nt/main_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2024-11-30T15:31:55.333+0600] {processor.py:840} INFO - DAG(s) 'example_branch_datetime_operator_3', 'example_branch_datetime_operator_2', 'example_branch_datetime_operator' retrieved from /Users/nt/main_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py
+[2024-11-30T15:31:55.390+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.389+0600] {override.py:1911} INFO - Created Permission View: can read on DAG:example_branch_datetime_operator_3
+[2024-11-30T15:31:55.392+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.392+0600] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_branch_datetime_operator_3
+[2024-11-30T15:31:55.394+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.394+0600] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_branch_datetime_operator_3
+[2024-11-30T15:31:55.397+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.397+0600] {override.py:1911} INFO - Created Permission View: can read on DAG:example_branch_datetime_operator_2
+[2024-11-30T15:31:55.399+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.399+0600] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_branch_datetime_operator_2
+[2024-11-30T15:31:55.401+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.401+0600] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_branch_datetime_operator_2
+[2024-11-30T15:31:55.404+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.404+0600] {override.py:1911} INFO - Created Permission View: can read on DAG:example_branch_datetime_operator
+[2024-11-30T15:31:55.405+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.405+0600] {override.py:1911} INFO - Created Permission View: can edit on DAG:example_branch_datetime_operator
+[2024-11-30T15:31:55.407+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.407+0600] {override.py:1911} INFO - Created Permission View: can delete on DAG:example_branch_datetime_operator
+[2024-11-30T15:31:55.407+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.407+0600] {dag.py:3096} INFO - Sync 3 DAGs
+[2024-11-30T15:31:55.410+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.410+0600] {dag.py:3118} INFO - Creating ORM DAG for example_branch_datetime_operator_2
+[2024-11-30T15:31:55.410+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.410+0600] {dag.py:3118} INFO - Creating ORM DAG for example_branch_datetime_operator_3
+[2024-11-30T15:31:55.410+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.410+0600] {dag.py:3118} INFO - Creating ORM DAG for example_branch_datetime_operator
+[2024-11-30T15:31:55.413+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.413+0600] {dag.py:3954} INFO - Setting next_dagrun for example_branch_datetime_operator to 2024-11-29 00:00:00+00:00, run_after=2024-11-30 00:00:00+00:00
+[2024-11-30T15:31:55.413+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.413+0600] {dag.py:3954} INFO - Setting next_dagrun for example_branch_datetime_operator_2 to 2024-11-29 00:00:00+00:00, run_after=2024-11-30 00:00:00+00:00
+[2024-11-30T15:31:55.414+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:31:55.414+0600] {dag.py:3954} INFO - Setting next_dagrun for example_branch_datetime_operator_3 to 2024-11-29 00:00:00+00:00, run_after=2024-11-30 00:00:00+00:00
+[2024-11-30T15:31:55.420+0600] {processor.py:183} INFO - Processing /Users/nt/main_env/lib/python3.12/site-packages/airflow/example_dags/example_branch_datetime_operator.py took 0.094 seconds

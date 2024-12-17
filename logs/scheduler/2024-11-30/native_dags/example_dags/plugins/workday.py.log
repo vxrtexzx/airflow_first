@@ -1,0 +1,12 @@
+[2024-11-30T15:30:42.091+0600] {processor.py:161} INFO - Started process (PID=10000) to work on /Users/nt/main_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-30T15:30:42.092+0600] {processor.py:830} INFO - Processing file /Users/nt/main_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-11-30T15:30:42.092+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:30:42.092+0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nt/main_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-30T15:30:42.092+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:30:42.092+0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-30T15:30:42.093+0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/nt/main_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-30T15:30:42.117+0600] {processor.py:183} INFO - Processing /Users/nt/main_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.027 seconds
+[2024-11-30T15:32:03.976+0600] {processor.py:161} INFO - Started process (PID=10138) to work on /Users/nt/main_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-30T15:32:03.977+0600] {processor.py:830} INFO - Processing file /Users/nt/main_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-11-30T15:32:03.977+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:32:03.977+0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nt/main_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-30T15:32:03.977+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:32:03.977+0600] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2024-11-30T15:32:03.978+0600] {processor.py:842} WARNING - No viable dags retrieved from /Users/nt/main_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py
+[2024-11-30T15:32:04.004+0600] {processor.py:183} INFO - Processing /Users/nt/main_env/lib/python3.12/site-packages/airflow/example_dags/plugins/workday.py took 0.029 seconds

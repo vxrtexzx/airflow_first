@@ -1,0 +1,18 @@
+[2024-11-30T15:30:38.669+0600] {processor.py:161} INFO - Started process (PID=9995) to work on /Users/nt/airflow/dags/dag.py
+[2024-11-30T15:30:38.670+0600] {processor.py:830} INFO - Processing file /Users/nt/airflow/dags/dag.py for tasks to queue
+[2024-11-30T15:30:38.670+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:30:38.670+0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nt/airflow/dags/dag.py
+[2024-11-30T15:30:38.675+0600] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /Users/nt/airflow/dags/dag.py
+[2024-11-30T15:30:38.745+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:30:38.745+0600] {override.py:1911} INFO - Created Permission View: can edit on DAG:dag
+[2024-11-30T15:30:38.747+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:30:38.747+0600] {override.py:1911} INFO - Created Permission View: can read on DAG:dag
+[2024-11-30T15:30:38.749+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:30:38.749+0600] {override.py:1911} INFO - Created Permission View: can delete on DAG:dag
+[2024-11-30T15:30:38.749+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:30:38.749+0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-30T15:30:38.752+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:30:38.752+0600] {dag.py:3118} INFO - Creating ORM DAG for dag
+[2024-11-30T15:30:38.755+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:30:38.755+0600] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-11-29 00:00:00+00:00, run_after=2024-11-30 00:00:00+00:00
+[2024-11-30T15:30:38.759+0600] {processor.py:183} INFO - Processing /Users/nt/airflow/dags/dag.py took 0.091 seconds
+[2024-11-30T15:32:00.589+0600] {processor.py:161} INFO - Started process (PID=10132) to work on /Users/nt/airflow/dags/dag.py
+[2024-11-30T15:32:00.590+0600] {processor.py:830} INFO - Processing file /Users/nt/airflow/dags/dag.py for tasks to queue
+[2024-11-30T15:32:00.590+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:32:00.590+0600] {dagbag.py:540} INFO - Filling up the DagBag from /Users/nt/airflow/dags/dag.py
+[2024-11-30T15:32:00.593+0600] {processor.py:840} INFO - DAG(s) 'dag' retrieved from /Users/nt/airflow/dags/dag.py
+[2024-11-30T15:32:00.626+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:32:00.626+0600] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-11-30T15:32:00.632+0600] {logging_mixin.py:188} INFO - [2024-11-30T15:32:00.632+0600] {dag.py:3954} INFO - Setting next_dagrun for dag to 2024-11-29 00:00:00+00:00, run_after=2024-11-30 00:00:00+00:00
+[2024-11-30T15:32:00.639+0600] {processor.py:183} INFO - Processing /Users/nt/airflow/dags/dag.py took 0.051 seconds

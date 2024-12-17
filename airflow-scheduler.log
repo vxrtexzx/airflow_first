@@ -1,0 +1,14 @@
+2024-11-30 15:30:37,529 INFO - Task context logging is enabled
+2024-11-30 15:30:37,530 INFO - Loaded executor: SequentialExecutor
+2024-11-30 15:30:37,593 INFO - Starting the scheduler
+2024-11-30 15:30:37,593 INFO - Processing each file at most -1 times
+2024-11-30 15:30:37,596 INFO - Launched DagFileProcessorManager with pid: 9991
+2024-11-30 15:30:37,597 INFO - Adopting or resetting orphaned tasks for active dag runs
+2024-11-30 15:32:48,853 INFO - Exiting gracefully upon receiving signal 15
+2024-11-30 15:32:49,873 INFO - Sending 15 to group 9991. PIDs of all processes in the group: [9991]
+2024-11-30 15:32:49,875 INFO - Sending the signal 15 to group 9991
+2024-11-30 15:32:50,095 INFO - Process psutil.Process(pid=9991, status='terminated', exitcode=0, started='15:30:37') (9991) terminated with exit code 0
+2024-11-30 15:32:50,102 INFO - Sending 15 to group 9991. PIDs of all processes in the group: []
+2024-11-30 15:32:50,103 INFO - Sending the signal 15 to group 9991
+2024-11-30 15:32:50,103 INFO - Sending the signal 15 to process 9991 as process group is missing.
+2024-11-30 15:32:50,104 INFO - Exited execute loop
